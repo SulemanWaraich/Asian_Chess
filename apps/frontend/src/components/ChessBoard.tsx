@@ -201,7 +201,7 @@ export const ChessBoard = memo(
             {(isFlipped ? board.slice().reverse() : board).map((row, i) => {
               i = isFlipped ? i + 1 : 8 - i;
               return (
-                <div key={i} className="flex relative">
+                <div key={i} className="flex  relative">
                   <NumberNotation isMainBoxColor={isFlipped ? i % 2 !== 0 : i % 2 === 0} label={i.toString()} />
                   {(isFlipped ? row.slice().reverse() : row).map((square, j) => {
                     j = isFlipped ? 7 - (j % 8) : j % 8;
