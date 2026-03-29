@@ -208,7 +208,7 @@ export const ChessBoard = memo(
 
                     const isMainBoxColor = (i + j) % 2 !== 0;
                     const isPiece: boolean = !!square;
-                    const squareRepresentation = (String.fromCharCode(97 + j) + '' + i) as Square;
+                    const squareRepresentation = (String.fromCharCode(97  + j) + '' + i) as Square;
                     const isHighlightedSquare =
                       from === squareRepresentation ||
                       squareRepresentation === lastMove?.from ||
