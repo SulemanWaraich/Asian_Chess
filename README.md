@@ -1,6 +1,6 @@
 ## Chess
 
-Building a platform where people can
+Building a platform where people can     
 
 1. Sign up
 2. Create a new match/get connected to an existing match
